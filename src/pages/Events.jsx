@@ -9,7 +9,6 @@ export default function Events() {
         <>
             <Navbar />
             <PageHeader title="Flagship Events" path="/event" name="Events" />
-            <Initiatives />
             <Footer />
             <BackToTop />
         </>

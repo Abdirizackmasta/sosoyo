@@ -6,7 +6,12 @@
     margin-bottom: 0;
     padding: 210px 0 90px 0;
     text-align: center;
-    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .4)), url(../assets/page-header.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.95), /* Almost black at the top */
+        rgba(0, 0, 0, 0.85) 50%, /* Very dark midpoint */
+        rgba(0, 0, 0, 0.75) /* Dark at the bottom */
+    ), 
+    url(../assets/about.jpeg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;

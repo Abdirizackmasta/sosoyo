@@ -1,5 +1,5 @@
 import Navbar from "../components/Navbar";
-import hero from '../assets/KIDS.jpg';
+import hero from '../assets/hero.jpeg';
 import '../css/home.css';
 import Whatwedo from '../../src/components/whatwedo/Whatwedo'
 import Initiatives from "../components/Initiatives";

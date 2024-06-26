@@ -38,6 +38,16 @@ export default function Footer() {
                             </form>
                         </div>
                     </div>
+                       <div className="col-lg-3 col-md-6">
+                        <div className="footer-link">
+                            <h2>Useful Links</h2>
+                            <a href="#">Terms of use</a>
+                            <a href="#">Privacy policy</a>
+                            <a href="#">Cookies</a>
+                            <a href="#">Help</a>
+                            <a href="#">FQAs</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="container copyright">
@@ -46,6 +56,7 @@ export default function Footer() {
                         <p>&copy; <a href="#">THE SOSOYO</a> | 2024, All Right Reserved.</p>
                     </div>
                     <div className="col-md-6">
+                        <p>Designed By <a href="https://abdirizack-masta.netlify.app/">Abdul-razaq Masta</a></p>
                     </div>
                 </div>
             </div>

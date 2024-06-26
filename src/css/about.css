@@ -1,0 +1,38 @@
+.about-container{
+    padding: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+        h1{
+           font-size: 50px;
+           font-weight: 700;
+           @media(max-width: 1280px){
+            font-size: 45px;
+           }
+            @media(max-width: 1024px){
+            font-size: 40px;
+           }
+            @media(max-width: 800px){
+            font-size: 35px;
+           }
+            @media(max-width: 768px){
+            font-size: 28px;
+           }
+            @media(max-width: 500px){
+            font-size: 22px;
+           }
+        }
+        p{
+             @media(max-width: 800px){
+            font-size: 14px;
+           }
+            @media(max-width: 768){
+            font-size: 13px;
+           }
+            @media(max-width: 500px){
+            font-size: 12px;
+           }
+        }
+    
+}

@@ -103,8 +103,9 @@
     flex: 0; /* Prevent the right span from growing and shrinking */
     padding: 0; /* Add some padding around the image */
     img {
-      width: 700px; /* Set the image width to 200px */
-      height: 600px; /* Set the image height to 200px */
+      width: 500px; /* Set the image width to 200px */
+      height: 500px; /* Set the image height to 200px */
+      border-radius: 50%;
     }
     @media (max-width: 767.98px) {
       img {
