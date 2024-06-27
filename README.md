@@ -17,7 +17,7 @@ This project is a web application for sosoyo foundation. It's built using **Reac
 
 Clone the repository:
 ```bash
-git clone https://github.com/Abdirizackmasta/sosoyo
+git clone https://github.com/Abdirizackmasta/sosoyo.git
 ```
 ##### Move to the desired folder:
 
