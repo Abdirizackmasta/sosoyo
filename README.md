@@ -1,11 +1,9 @@
-# The Sanjivani NGO - ReactJS & SpringBoot Project
+# sosyo foundation website project
 
-This project is a web application for The Sanjivani NGO. It's built using **ReactJS**, **Axios**, and **Bootstrap**.
+This project is a web application for The Sanjivani NGO. It's built using **ReactJS** and **Bootstrap**.
 
 ## Features
 
-- **Donation Form**: A user-friendly form for making donations.
-- **Admin Login**: Secure login for admins to view user details.
 - **Carousel**: A beautiful carousel for showcasing events and initiatives by the NGO.
 - **Contact Form**: A form for users to get in touch with the NGO.
 - **Navbar and Footer**: A beautiful and intuitive navigation bar and footer for easy navigation.
@@ -13,20 +11,18 @@ This project is a web application for The Sanjivani NGO. It's built using **Reac
 ## Tech Stack
 
 - **ReactJS**: A JavaScript library for building user interfaces.
-- **Axios**: A promise-based HTTP client for the browser and node.js.
 - **Bootstrap**: The world's most popular front-end open-source toolkit.
-- **SrpingBoot**: Backend repo: `https://github.com/bhaveshpatil07/The-Sanjivani-NGO-Server`.
 
 ## Getting Started
 
 Clone the repository:
 ```bash
-git clone https://github.com/bhaveshpatil07/The-Sanjivani-NGO-ReactJs
+git clone https://github.com/Abdirizackmasta/sosoyo
 ```
 ##### Move to the desired folder:
 
 ```bash
-cd sanjivani
+cd sosoyo
 ```
 
 ##### Install the dependencies:
@@ -44,6 +40,4 @@ http://localhost:3000
 ```
 ---
 
-### If you encounter any difficulty running it, feel free to contact on my email :smile:
 
-### If you liked my work do give us a star :star::star::star: It Encourages us to do more :wink: :dizzy:
