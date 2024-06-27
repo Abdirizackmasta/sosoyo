@@ -40,5 +40,5 @@ http://localhost:3000
 ```
 ---
 
-### If you encounter any difficulty running it, feel free to contact on my email :abdirizackissack@018@gmail.com:
+### If you encounter any difficulty running it, feel free to contact on my email : abdirizackissack@2018@gmail.com:
 
