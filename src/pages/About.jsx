@@ -10,7 +10,7 @@ export default function About() {
             <Navbar />
             <PageHeader title="About Us" />
             <div className="about-container">
-                <h1>About Solution to the Society Youth Organization <span style={{color: 'orangered'}}>(SOSOYO)</span></h1>
+                <h1>About Solution to the Society Youth Organization <span style={{color: '#FDBE33'}}>(SOSOYO)</span></h1>
                 <p>Solution to the Society Youth Organization (SOSOYO) was conceived with the vision of empowering 
                 the youth to become proactive leaders in their communities. Founded in 2018 and becoming operational 
                 in 2019, SOSOYO was established in response to the growing need for a platform that addresses civic 
@@ -23,6 +23,16 @@ export default function About() {
                 The organization serves as a bridge, connecting the youth with the necessary tools and networks to drive 
                 positive change within their communities.
                 </p>
+            </div>
+            <div className="mission-vission">
+                <div>
+                    <h1>OUR MISSION</h1>
+                    <p>To engage, educate, and empower young individuals through innovative programs and initiatives that address civic, climate, environmental, health, and skills development issues, thereby contributing to the overall well-being and progress of the community</p>
+                </div>
+                <div>
+                    <h1>OUR VISION</h1>
+                    <p>To be a leading organization that empowers youth to create sustainable and impactful solutions for societal challenges, fostering a generation of proactive and responsible leaders.</p>
+                </div>
             </div>
             <Footer />
             <BackToTop />

@@ -1,38 +1,139 @@
-.about-container{
-    padding: 50px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-        h1{
-           font-size: 50px;
-           font-weight: 700;
-           @media(max-width: 1280px){
-            font-size: 45px;
-           }
-            @media(max-width: 1024px){
-            font-size: 40px;
-           }
-            @media(max-width: 800px){
-            font-size: 35px;
-           }
-            @media(max-width: 768px){
-            font-size: 28px;
-           }
-            @media(max-width: 500px){
-            font-size: 22px;
-           }
-        }
-        p{
-             @media(max-width: 800px){
-            font-size: 14px;
-           }
-            @media(max-width: 768){
-            font-size: 13px;
-           }
-            @media(max-width: 500px){
-            font-size: 12px;
-           }
-        }
-    
+.about-container {
+  padding: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .about-container h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .about-container h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-container h1 {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container h1 {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container h1 {
+    font-size: 22px;
+  }
+}
+
+/* .about-container p {
+  color: rgb(65, 60, 60);
+} */
+
+@media (max-width: 800px) {
+  .about-container p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-container p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .about-container p {
+    font-size: 12px;
+  }
+}
+
+.mission-vission {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mission-vission div {
+  padding: 20px;
+}
+
+.mission-vission div h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #FDBE33;
+  position: relative;
+}
+
+@media (max-width: 1280px) {
+  .mission-vission div h1 {
+    font-size: 47px;
+  }
+}
+@media (max-width: 120px) {
+  .mission-vission div h1 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .mission-vission div h1 {
+    font-size: 33px;
+  }
+}
+@media (max-width: 800px) {
+  .mission-vission div h1 {
+    font-size: 28px;
+  }
+}
+@media (max-width: 768px) {
+  .mission-vission div h1 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 500px) {
+  .mission-vission div h1 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .mission-vission div  p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .mission-vission div p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 500px) {
+  .mission-vission div p {
+    font-size: 12px;
+  }
+}
+.mission-vission div h1::after {
+  position: absolute;
+  height: 2px;
+  width: 50px;
+  bottom: -5px;
+  left: 0;
+  background-color: #FDBE33;
 }

@@ -54,7 +54,7 @@ function Whatwedo() {
     <div className={styles.whatwedo} id="areaoffocus">
       <div className={styles.left}>
         <p className={styles.first_p}>What We Do</p>
-        <h1>Our Focus Area</h1>
+        <h1 className={styles.title}>Our Focus Area</h1>
         <p className={styles.second_p}>Solution to the Society Youth Organization (SOSOYO) was conceived with the vision of empowering the youth to become proactive leaders in their communities. Founded in 2018 and becoming operational in 2019, SOSOYO was established in response to the growing need for a platform that addresses civic engagement, climate and environmental issues, health, and skills development among the youth.</p>
       </div>
       <div className={styles.right}>

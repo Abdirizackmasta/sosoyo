@@ -9,15 +9,23 @@
       rgb(1, 24, 54) 11.2%,
       rgba(0, 37, 84, 0.8) 100.2%
     );
-    @media (max-width: 767.98px) {
+    @media (max-width: 800px) {
       flex-direction: column;
+      height: 500px;
+      padding: 20px;
+      text-align: center;
     }
+    /* @media (max-width: 767.98px) {
+      flex-direction: column;
+      height: 700px;
+      text-align: center;
+    } */
   }
   
   /* Define a style for the left span */
   .left {
     flex: 1; /* Allow the left span to grow and shrink as needed */
-    padding: 20px; /* Add some padding around the content */
+   /* padding: 20px;  Add some padding around the content */
     text-align: left; /* Align the text to the left */
     hr {
       background-color: yellow;
@@ -30,6 +38,9 @@
       font-size: 1.35rem;
       font-style: italic;
       color: yellowgreen;
+      @media(max-width: 1280px){
+        font-size: 1.3rem;
+      }
     }
     .titles {
       max-width: 700px;
@@ -48,6 +59,15 @@
         text-transform: uppercase;
         span {
           color: yellow;
+        }
+        @media(max-width: 1280px){
+          font-size: 2.2rem;
+        }
+         @media(max-width: 1200px){
+          font-size: 2rem;
+        }
+         @media(max-width: 1024px){
+          font-size: 1.7rem;
         }
       }
     }
@@ -88,7 +108,7 @@
       .caption3 {
         max-width: 100%;
         p {
-          font-size: 0.85rem;
+          font-size: 1rem;
         }
       }
       .btns {
@@ -101,16 +121,36 @@
   /* Define a style for the right span */
   .right {
     flex: 0; /* Prevent the right span from growing and shrinking */
-    padding: 0; /* Add some padding around the image */
+    padding-right: 20px; /* Add some padding around the image */
     img {
       width: 500px; /* Set the image width to 200px */
       height: 500px; /* Set the image height to 200px */
       border-radius: 50%;
     }
-    @media (max-width: 767.98px) {
+     @media (max-width: 1280px) {
       img {
-        width: 100%;
-        height: 100%;
+        width: 430px;
+        height: 430px;
+      }
+    }
+     @media (max-width: 1200px) {
+      img {
+        margin-top: 30px;
+        width: 400px;
+        height: 400px;
+      }
+    }
+    @media (max-width: 1024px) {
+      img {
+        margin-top: 45px;
+        width: 380px;
+        height: 380px;
+      }
+    }
+    @media (max-width: 800px) {
+      padding: 0;
+      img {
+       height: 0;
       }
     }
   }

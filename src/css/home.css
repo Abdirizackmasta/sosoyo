@@ -30,7 +30,7 @@
        text-align: center;
        @media (max-width: 1024px){
         padding:  30px;
-        top: 40%;
+        top: 55%;
         }
        @media (max-width: 800px){
         padding: 20px;

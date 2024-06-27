@@ -106,7 +106,63 @@
     font-size: 49px;
     color: rgb(37, 41, 37);
 }
+@media(max-width: 1024) {
+    .title{
+        font-size: 33px;
+    }
+}
+@media(max-width: 800px) {
 
+    .whatwedo {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .first_p {
+        font-size: 17px;
+    }
+
+    .second_p {
+        font-size: 17px;
+    }
+
+    .left {
+        gap: 6px;
+    }
+
+    .left h1 {
+        font-size: 28px;
+    }
+
+    .right {
+        padding: 18px;
+    }
+
+    .right p {
+        font-size: 13px;
+    }
+
+    .right h1 {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .first_p::after {
+        width: 100%;
+        left: 0;
+        top: 100%;
+        bottom: -10px;
+    }
+
+    .left_icon {
+        left: 0;
+    }
+
+    .right_icon {
+        right: 0;
+    }
+
+}
 @media(max-width: 768px) {
 
     .whatwedo {
