@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+
+.accordion {
+    margin: 50px 0px;
+    border-top: .5px solid rgba(0, 0, 0, .25);
+    border-bottom: .5px solid rgba(0, 0, 0, .25);
+    /* border-radius: 8px; */
+    padding: 20px;
+}
+.accordion h1{
+    text-align: center;
+    color: #FDBE33;
+    font-size: 50px;
+    position: relative;
+}
+@media (max-width: 1280px) {
+  .accordion h1 {
+    font-size: 45px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .accordion h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 800px) {
+  .accordion h1 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 500px) {
+  .accordion h1 {
+    font-size: 20px;
+  }
+}
+.accordion-section {
+    margin: 10px;
+}
+
+.accordion-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 12px;
+    cursor: pointer;
+}
+
+.accordion-title {
+    font-size: 23px;
+    letter-spacing: .5px;
+    word-spacing: .5em;
+    color: rgba(0, 0, 0, .8);
+}
+@media(max-width: 1280px){
+    .accordion-title{
+        font-size: 22px;
+    }
+}
+@media(max-width: 1024px){
+    .accordion-title{
+        font-size: 20px;
+    }
+}
+@media(max-width: 800px){
+    .accordion-title{
+        font-size: 19px;
+    }
+}
+@media(max-width: 768px){
+    .accordion-title{
+        font-size: 18px;
+    }
+}
+@media(max-width: 500px){
+    .accordion-title{
+        font-size: 16px;
+    }
+}
+.accordion-content {
+    text-align: justify;
+    letter-spacing: .15em;
+    word-spacing: 5.em;
+    padding: 8px 16px;
+}
+@media(max-width: 1024px){
+    .accordion-content{
+        font-size: 15px;
+    }
+}
+@media(max-width: 800px){
+    .accordion-content{
+        font-size: 14px;
+    }
+}
+@media(max-width: 768px){
+    .accordion-content{
+        font-size: 13px;
+    }
+}
+@media(max-width: 500px){
+    .accordion-content{
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+}
+/* .active {
+    background-color: #f1f1f1;
+    color: brown;
+    border-radius: 8px;
+} */
+

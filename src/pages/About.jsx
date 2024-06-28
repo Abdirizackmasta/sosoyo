@@ -2,6 +2,7 @@ import Navbar from "../components/Navbar";
 import Footer from '../components/Footer';
 import BackToTop from '../components/BackToTop';
 import PageHeader from "../components/PageHeader";
+import Accordion from "../components/Accordion";
 import '../css/about.css';
 
 export default function About() {
@@ -34,6 +35,7 @@ export default function About() {
                     <p>To be a leading organization that empowers youth to create sustainable and impactful solutions for societal challenges, fostering a generation of proactive and responsible leaders.</p>
                 </div>
             </div>
+            <Accordion />
             <Footer />
             <BackToTop />
         </>

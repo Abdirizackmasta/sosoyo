@@ -6,18 +6,11 @@ import logo from '../assets/logo.jpeg';
 
 export default function Navbar() {
     const [dropdownOpen, setDropdownOpen] = useState(false);
-    const [auth, setAuth] = useState("");
     const path = useLocation().pathname;
-    const navigate = useNavigate();
 
     useEffect(() => {
-        const isAdmin = localStorage.getItem("ADMIN_NGO");
-        const isUser = localStorage.getItem("NGO");
-        if(isAdmin){
-            setAuth("ADMIN");
-        }else if(isUser){
-            setAuth("USER");
-        }
+     
+      
         window.scrollTo({ top: 0, behavior: 'smooth' });
         // Get the top bar element
         const topBar = document.querySelector('.top-bar');
@@ -57,11 +50,11 @@ export default function Navbar() {
                         <div className="col-md-4">
                             <div className="top-bar-right">
                                 <div className="social">
-                                    <a href=""><i className="fab fa-x-twitter"></i></a>
-                                    <a href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a href=""><i className="fab fa-instagram"></i></a>
-                                    <a href=""><i className="fab fa-youtube"></i></a>
-                                    <a href=""><i className="fab fa-linkedin-in"></i></a>
+                                    <a href="#"><i className="fab fa-x-twitter"></i></a>
+                                    <a href="#"><i className="fab fa-facebook-f"></i></a>
+                                    <a href="#"><i className="fab fa-instagram"></i></a>
+                                    <a href="#"><i className="fab fa-youtube"></i></a>
+                                    <a href="#"><i className="fab fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>
