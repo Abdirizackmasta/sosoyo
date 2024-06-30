@@ -9,7 +9,8 @@
       rgb(1, 24, 54) 11.2%,
       rgba(0, 37, 84, 0.8) 100.2%
     );
-    @media (max-width: 767.98px) {
+    @media (max-width: 800px) {
+      height: 400px;
       flex-direction: column;
     }
   }
@@ -17,7 +18,7 @@
   /* Define a style for the left span */
   .left {
     flex: 1; /* Allow the left span to grow and shrink as needed */
-    padding: 20px; /* Add some padding around the content */
+    padding: 0;
     text-align: left; /* Align the text to the left */
     hr {
       background-color: yellow;
@@ -33,8 +34,9 @@
     }
     .titles {
       max-width: 700px;
-      margin-left: 80px;
+      /* margin-left: 80px; */
       margin-top: 7rem;
+      padding: 20px;
     }
     .caption1 {
       display: flex;
@@ -48,6 +50,26 @@
         text-transform: uppercase;
         span {
           color: yellow;
+        }
+      }
+      @media(max-width: 1280px){
+        p{
+          font-size: 2.2rem;
+        }
+      }
+      @media(max-width: 1200px){
+        p{
+          font-size: 2rem;
+        }
+      }
+      @media(max-width: 1024px){
+        p{
+          font-size: 1.7rem;
+        }
+      }
+      @media(max-width: 800px){
+        p{
+          font-size: 1.4rem;
         }
       }
     }
@@ -66,8 +88,7 @@
       max-width: 250px;
       margin-top: 20px;
     }
-    @media (max-width: 767.98px) {
-      padding: 5px;
+    @media (max-width: 800px) {
       hr {
         width: 20%;
         border: 0.5px solid yellow;
@@ -85,6 +106,31 @@
           font-size: 1.5rem;
         }
       }
+      @media (max-width: 1280px){
+        .caption2{
+          font-size: 1.2rem;
+        }
+      }
+       @media (max-width: 1200px){
+        .caption2{
+          font-size: 22px;
+        }
+      }
+       @media (max-width: 1024px){
+        .caption2{
+          font-size: .9rem;
+        }
+      }
+       @media (max-width: 800px){
+        .caption2{
+          font-size: .7rem;
+        }
+      }
+       @media (max-width: 768px){
+        .caption2{
+          font-size: .5rem;
+        }
+      }
       .caption3 {
         max-width: 100%;
         p {
@@ -100,17 +146,39 @@
   
   /* Define a style for the right span */
   .right {
-    flex: 0; /* Prevent the right span from growing and shrinking */
-    padding: 0; /* Add some padding around the image */
+    flex: 0;
+    padding-right: 20px;
+
     img {
-      width: 500px; /* Set the image width to 200px */
-      height: 500px; /* Set the image height to 200px */
+      width: 500px;
+      height: 500px;
       border-radius: 50%;
     }
-    @media (max-width: 767.98px) {
+     @media (max-width: 1280px) {
       img {
-        width: 100%;
-        height: 100%;
+        width: 420px;
+        height: 420px;
+        margin-top: 45px;
       }
     }
-  }
+    @media (max-width: 1200px) {
+      img {
+        width: 400px;
+        height: 400px;
+        margin-top: 49px;
+      }
+    }
+     @media (max-width: 1024px) {
+      img {
+        width: 370px;
+        height: 370px;
+        margin-top: 60px;
+      }
+    }
+    
+    @media (max-width: 800px) {
+      img {
+        display: none;
+      }
+    }
+}

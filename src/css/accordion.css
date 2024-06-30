@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+}
+
+.accordion {
+    margin: 5px;
+    /* border: 1px solid rgba(0, 0, 0, .25); */
+    border-radius: 8px;
+    padding: 30px;
+}
+.accordion-main-title{
+    font-size: 50px;
+    text-align: center;
+    color: #FDBE33;
+    font-weight: 700;
+}
+.accordion-section {
+    margin: 10px;
+    border-block-start: 1px solid rgba(0, 0, 0, .25);
+}
+
+.accordion-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 3px 12px;
+}
+
+.accordion-title {
+    letter-spacing: .5px;
+    word-spacing: .5em;
+    color: rgba(0, 0, 0, .8);
+    font-size: 26px;
+}
+
+.accordion-content {
+    text-align: justify;
+    letter-spacing: .15em;
+    word-spacing: 5.em;
+    padding: 8px 16px;
+}
+
+@media (max-width: 1280px){
+    .accordion-main-title{
+        font-size: 45px;
+    }
+    .accordion-title{
+        font-size: 24px;
+    }
+    .accordion{
+        padding: 25px;
+    }
+}
+@media (max-width: 1200px){
+    .accordion-main-title{
+        font-size: 40px;
+    }
+    .accordion-title{
+        font-size: 22px;
+    }
+    .accordion{
+        padding: 22px;
+    }
+}
+@media (max-width: 1024px){
+    .accordion-main-title{
+        font-size: 35px;
+    }
+    .accordion-title{
+        font-size: 20px;
+    }
+     .accordion{
+        padding: 18px;
+    }
+    .accordion-content{
+        font-size: 15px;
+    }
+}
+@media (max-width: 800px){
+    .accordion-main-title{
+        font-size: 28px;
+    }
+    .accordion-title{
+        font-size: 18px;
+    }
+     .accordion{
+        padding: 16px;
+    }
+    .accordion-content{
+        font-size: 14px;
+        padding: 6px;
+        letter-spacing: .1rem;
+    }
+}
+@media (max-width: 768px){
+    .accordion-main-title{
+        font-size: 24px;
+    }
+    .accordion-title{
+        font-size: 17px;
+    }
+     .accordion{
+        padding: 14px;
+    }
+    .accordion-content{
+        font-size: 13px;
+    }
+}
+@media (max-width: 500px){
+    .accordion-main-title{
+        font-size: 19px;
+    }
+    .accordion-title{
+        font-size: 16px;
+    }
+     .accordion{
+        padding: 10px;
+    }
+}
+

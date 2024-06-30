@@ -3,6 +3,7 @@
     text-align: center;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid grey;
     gap: 20px;
         h1{
            font-size: 50px;
@@ -35,4 +36,111 @@
            }
         }
     
+}
+.vission-mission{
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+}
+.vission-mission div{
+   padding: 30px;
+   text-align: center;
+   border-bottom: 1px solid grey;
+}
+.vission-mission div h1{
+   font-size: 50px;
+   color: #FDBE33;
+   font-weight: 700;
+}
+.aim{
+   text-align: center;
+   border-bottom: 1px solid grey ;
+   padding: 20px;
+}
+.aim h1{
+   font-size: 50px;
+   color: #FDBE33;
+   font-weight: 700;
+}
+@media(max-width: 1280px){
+   .vission-mission div{
+      padding: 25px;
+   }
+   .vission-mission div h1{
+      font-size: 44px;
+   }
+}
+@media(max-width: 1200px){
+   .vission-mission div{
+      padding: 15px;
+   }
+   .vission-mission div h1{
+      font-size: 37px;
+   }
+}
+
+@media(max-width: 800px){
+   .vission-mission div{
+      padding: 15px;
+   }
+   .vission-mission div h1{
+      font-size: 28px;
+   }
+}
+@media(max-width: 768px){
+   .vission-mission div h1{
+      font-size: 23px;
+   }
+   .vission-mission div p{
+      font-size: 15px;
+   }
+}
+@media(max-width: 500px){
+   .vission-mission div h1{
+      font-size: 18px;
+   }
+     .vission-mission div p{
+      font-size: 13px;
+   }
+}
+@media(max-width: 1280px){
+   .aim{
+      padding: 18px;
+   }
+   .aim h1{
+      font-size: 44px;
+   }
+}
+@media(max-width: 1200px){
+   .aim{
+      padding: 15px;
+   }
+   .aim h1{
+      font-size: 37px;
+   }
+}
+
+@media(max-width: 800px){
+   .aim{
+      padding: 10px;
+   }
+   .vission-mission div h1{
+      font-size: 28px;
+   }
+}
+@media(max-width: 768px){
+   .aim h1{
+      font-size: 23px;
+   }
+   .aim p{
+      font-size: 15px;
+   }
+}
+@media(max-width: 500px){
+   .aim h1{
+      font-size: 18px;
+   }
+     .aim p{
+      font-size: 13px;
+   }
 }
